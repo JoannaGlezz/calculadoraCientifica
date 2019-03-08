@@ -160,8 +160,7 @@ function init() {
                 break;
 
             case "**":
-                res = "El resultado de la potencia es: " + 
-                (parseFloat(operando1) ** parseFloat(operando2))
+                res = parseFloat(operando1) ** parseFloat(operando2)
                 break;
         }
 
